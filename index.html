@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+</head>
+<body>
+    <h1 style="font-size: 150px;"> hi qun :3 </h1>
+    <p style="font-size: 50px;"> i,,. Know you wan.,t the into brace song </p>
+    <img src="image.png" style="width: 816px; height: 667px;">
+    <audio src="V22ZI2 - Into Brace.mp3" type="audio/mp3" controls></audio>
+    <img src="image2.png" style="width: 500px; height: 500px;" id="img2">
+    <script>
+        var x = 0
+        setInterval(wait, 1);
+        function wait() {
+            x++;
+            document.getElementById("img2").style.height = 500 * (Math.abs(Math.sin(x/35))) + 100 + "px";
+        }
+    </script>
+</body>
+</html>
